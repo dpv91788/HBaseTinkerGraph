@@ -5,4 +5,28 @@
   <version>1.0.0-SNAPSHOT</version>
   <name>Blueprints HBase Graph</name>
   <description>Blueprints tinkerpop graph backed by hbase</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.tinkerpop.blueprints</groupId>
+  		<artifactId>blueprints-core</artifactId>
+  		<version>2.6.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.tinkerpop.rexster</groupId>
+  		<artifactId>rexster-server</artifactId>
+  		<version>2.6.0</version>
+  		<scope>provided</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.tinkerpop.blueprints</groupId>
+  		<artifactId>blueprints-test</artifactId>
+  		<version>2.6.0</version>
+  		<scope>test</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.hbase</groupId>
+  		<artifactId>hbase-client</artifactId>
+  		<version>0.98.6-hadoop2</version>
+  	</dependency>
+  </dependencies>
 </project>
